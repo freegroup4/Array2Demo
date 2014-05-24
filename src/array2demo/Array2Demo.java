@@ -1,22 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package array2demo;
-
-/**
- *
- * @author Chen-USE
- */
 public class Array2Demo {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int sale[][] = {{32,30,35,26},{34,30,33,31}};
+        int i,j,sum = 0;
+        for (int k = 0; k < sale.length; k++) {
+            System.out.println("業務員 : " + (k+1) + "的業績為:");
+            System.out.println();
+        }
+        System.out.println("總業績為 : " + sum);
     }
-    
 }
